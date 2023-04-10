@@ -1,0 +1,10 @@
+h1{color: rgb(255, 255, 255);}
+h3{color: rgb(255, 255, 255);}
+p{color: rgb(255, 255, 255);}
+
+body{background: url(Fotos.img/FONDOOO.jpg);}
+nav.navbar {background-color: rgb(233, 192, 235);}
+
+.nav-link:hover{
+    color: rgb(245, 188, 232);
+ }
