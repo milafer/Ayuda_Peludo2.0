@@ -5,53 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gatitos</title>
-    <h4 align="Right"><a href="/index.html">VOLVER</a></h4>
-</head>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="Estilos/estilosgatos.css">
+
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   </head>
 
 <body>
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Ayuda a un Peludo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Perros.html">Perros</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="Contactanos.html">Contactanos</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+    <!--TEXTO DE iNTRO  -->
     <h1>Gatitos en Adopoción</h1>
     <hr><br>
     <h2>¿Buscas adoptar y dar hogar a un animal rescatado? </h2>
     <p>Todos ellos eran animales abandonados en las calles que fueron rescatados y rehabilitados, recibiendo atención para mejorar su salud física y emocional.
         Todos están listos para encontrar a una nueva familia que los quiera y los cuide.</p>
         <br><hr>
-        <table id="tabla" cellspacing="50">       
-            <tr>
-            <div>
-                <th>
-                    <img src="/Imagenes/Gato2.jpg" style="width: 200px; height:200px" border="5">
-                </th>
-          
-                <th>
-                    <a href="/Lucy.html" id="Lucy">LUCY</a>
-                </th>
-            </tr>
-                  </div>
 
-          <table id="tabla" cellspacing="50">       
-            <tr>
-            <div>
-                <th>
-                    <img src="/Imagenes/Gato3.jpg" style="width: 200px; height:200px" border="5">
-                </th>
-          
-                <th>
-                    <a href="/Safiro.html" id="Safiro">SAFIRO</a>
-                </th>
-            </tr>
-                  </div>
+    <!-- Tarjetas -->
+    <!-- Gato 1  -->
+    <div class="card" style="width: 18rem;">
+        <img src="/Imagenes/gato 1.jpg" class="card-img-top" alt="LUCY">
+        <div class="">
+        <h5 class="">Lucy</h5>
+        <p class="card-text">
+            Edad            : 5 Meses
+            <br>
+            Genero          : Hembra
+            <br>
+            Esterilizado    : No   
+            <br>
+            N° Chip         : 41017788</p>
+        <a href="/Contactos.html" class="btn btn-primary">ADOPTAR</a>
+        </div>
+    </div>
+    
+    <!-- Gato 2 -->
+    <div class="card" style="width: 18rem;">
+        <img src="/Imagenes/gato 2.jpg" class="card-img-top" alt="SAFIRO">
+        <div class="">
+        <h5 class="">Safiro</h5>
+        <p class="card-text">
+            Edad            : 4 Meses
+            <br>
+            Genero          : Hembra
+            <br>
+            Esterilizado    : No   
+            <br>
+            N° Chip         : 77880256</p>
+        <a href="/Contactos.html" class="btn btn-primary">ADOPTAR</a>
+        </div>
+    </div >
 
-          <table id="tabla" cellspacing="50">       
-            <tr>
-            <div>
-                <th>
-                    <img src="/Imagenes/Gato1.jpg" style="width: 200px; height:200px" border="5">
-                </th>
-          
-                <th>
-                    <a href="/Carloto.html" id="Carloto">CARLOTO</a>
-                </th>
-            </tr>
-                  </div>  
-</body>
-</html>
+    <!-- Gato 3 -->
+    <div class="card" style="width: 18rem;">
+        <img src="/Imagenes/gato 3.jpg" class="card-img-top" alt="CARLOTO">
+        <div class="">
+        <h5 class="">Carloto</h5>
+        <p class="card-text">
+            Edad            : 2 Meses
+            <br>
+            Genero          : Macho
+            <br>
+            Esterilizado    : No   
+            <br>
+            N° Chip         : 554411234</p>
+        <a href="/Contactos.html" class="btn btn-primary">ADOPTAR</a>
+        </div>
+    </div>
+
+    <footer>©MILAFER__</footer>
+
+
+
+    
+        

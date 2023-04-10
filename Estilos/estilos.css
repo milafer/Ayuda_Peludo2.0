@@ -1,0 +1,40 @@
+
+/* Colores */
+h1{color: rgb(0, 0, 0);}
+h1
+h3{color: rgb(0, 0, 0);}
+p{color: rgb(0, 0, 0);}
+
+/* Fondo Pagina */
+html, body{
+    min-height: 200%;
+    background: url('/Imagenes/lavanda.jpg') no-repeat center center fixed;
+    background-size: cover;
+      }
+
+/* Color y letra Barra de Navegacion */
+nav.navbar {background-color: rgb(248, 227, 249);}
+.nav-link:hover{
+    color: rgb(236, 12, 184);
+ }
+
+ nav.navbar ul.nav li {
+    font-family: "Helvetica Neue",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* FOOTER */
+footer{
+    text-align: center;
+    background-color: transparent;
+    height: 70px;
+    
+/* PONER FOOTER ABAJO */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+ max-width:100%;
+}
+
+
+
+   
