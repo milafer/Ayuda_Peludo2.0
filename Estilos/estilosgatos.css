@@ -5,6 +5,16 @@ html, body{
     background-size: cover;
       }
 
+
+/* Fondo Pagina */
+body{
+  min-height: 200%;
+  background-color:  rgb(240, 191, 229) !important;
+  background-size: cover;
+    }
+
+
+
 /* Color y letra Barra de Navegacion */
 nav.navbar {background-color: rgb(248, 227, 249);}
 .nav-link:hover{

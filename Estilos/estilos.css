@@ -10,9 +10,9 @@ h3{color: rgb(0, 0, 0);}
 p{color: rgb(0, 0, 0);}
 
 /* Fondo Pagina */
-html, body{
+body{
     min-height: 200%;
-    background: url('/Imagenes/lavanda.jpg') no-repeat center center fixed;
+    background-color:  rgb(184, 141, 174) !important;
     background-size: cover;
       }
 
