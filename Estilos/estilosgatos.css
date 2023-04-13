@@ -7,9 +7,9 @@ html, body{
 
 
 /* Fondo Pagina */
-body{
+html, body{
   min-height: 200%;
-  background-color:  rgb(240, 191, 229) !important;
+  background-image:url(/Imagenes/definitivo.jpg);
   background-size: cover;
     }
 
@@ -20,3 +20,21 @@ nav.navbar {background-color: rgb(248, 227, 249);}
 .nav-link:hover{
     color: rgb(236, 12, 184);
  }
+
+ /* FOOTER */
+footer{
+  text-align: center;;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(237, 167, 179, 0.5);
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  max-width:100%;}
+
+
+
+
+
+ 
